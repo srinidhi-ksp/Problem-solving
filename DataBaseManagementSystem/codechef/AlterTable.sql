@@ -1,0 +1,4 @@
+ALTER TABLE employee 
+ADD COLUMN Hourly_Pay INT DEFAULT 100;
+
+SELECT * FROM employee;
